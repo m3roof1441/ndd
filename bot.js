@@ -13,24 +13,6 @@ client.on('ready', () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 console.log('mariam ra7t tmot al nas');
 client.on('ready', () => {
   console.log(`im redey`);
@@ -104,41 +86,6 @@ const x5bz4 = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 client.on('message', message => {
     var args = message.content.split(/[ ]+/)
     if(message.content.includes('discord.gg')){
@@ -147,10 +94,6 @@ client.on('message', message => {
     return message.reply(`** No Invite Links للاسف ما تقدر تنشر :) ههههههههههايي 😠 ! **`)
     }
 });
-
-
-
-
 
 
 
@@ -167,18 +110,11 @@ client.on('message', msg => {
 });
 
 
-
-
-
-client.on('message', msg => {
+t.on('message', msg => {
   if (msg.content === 'مين يلعب؟') {
     msg.reply('انا العب ولا شي :)');
   }
 });
-
-
-
-
 
 
 
@@ -217,12 +153,6 @@ client.on("message", message => {
 
 
 
-
-
-
-
-
-
 client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
@@ -241,32 +171,6 @@ client.on("message", message => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
@@ -277,19 +181,6 @@ client.on("message", message => {
 
  }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -411,23 +302,6 @@ var cats = [
 message.channel.sendEmbed(cat);
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
