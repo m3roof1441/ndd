@@ -1181,4 +1181,4 @@ message.channel.sendEmbed(avatar)
 
 
 
-client.login("NDk5OTM4MTU4OTg1NzQwMzEy.DrLdGQ.FXhl_8c9-i16e-d345Bl-uMRcUk");
+client.login("process.env.BOT_TOKEN");
